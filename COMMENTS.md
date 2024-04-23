@@ -2,15 +2,23 @@
 
 ## Arquitetura
 
-Nesse projeto tentei utilizar uma arquitetura baseada em softwares.
+Nesse projeto utilizei arquitetura MSCR .
 
 ## Tecnologias Utilizadas
 
-[TailWindCSS](https://tailwindcss.com/), [Yup](https://github.com/jquense/yup), [VueJS](https://vuejs.org/), [VueRouter](https://router.vuejs.org/), [Vuetify](https://vuetifyjs.com/) E [Axios](https://axios-http.com/)
+[Bcryptjs](https://www.npmjs.com/package/bcryptjs)
+[Cors](https://www.npmjs.com/package/cors)
+[Dayjs](https://day.js.org/)
+[Dotenv](https://www.npmjs.com/package/dotenv)
+[Express](https://expressjs.com/pt-br/)
+[Jsonwebtoken](https://jwt.io/)
+[Pg](https://www.npmjs.com/package/pg)
+[Typeorm](https://www.npmjs.com/package/typeorm)
+[Uuid](https://www.npmjs.com/package/uuid)
 
 ## Melhorias com o tempo
 
-Se tivesse mais tempo, com toda certeza iria implementar questão de registro e gerencimento de turmas, cursos e operadores aos quais deixei meio caminho andado e ajustaria o design pois no final do projeto percebi que poderia ter o deixado mais dinâmico e teria colocado a parte de permissões de acesso.
+ajustado o middleware para verificar se tem permissao para acessar "X" serviço, criado todos os CRUD de Turmas, Curso.
 
 ## Requesitos não entregues
 
